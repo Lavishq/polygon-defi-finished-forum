@@ -30,7 +30,7 @@ const { chains, provider } = configureChains(
     jsonRpcProvider({
       priority: 0,
       rpc: (chain) => ({
-        http: '',
+        http: 'https://polygon-mumbai.g.alchemy.com/v2/UquM8WKdjXKxyu8fKcQNoVsejeoONmLe',
       }),
     }),
     alchemyProvider({ alchemyId: 'https://polygon-mumbai.g.alchemy.com/v2/UquM8WKdjXKxyu8fKcQNoVsejeoONmLe', priority: 1 }),
